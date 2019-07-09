@@ -6,12 +6,12 @@
     <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
       <property name="mappings">
          <props>
-           <prop key="/enterjsp.htm">pvc</prop>
+           <prop key="/enterjsp.htm">pvcc</prop>
          </props>
       </property>
     
     </bean>
-      <bean id="pvc" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+      <bean id="pvcc" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
         <property name="viewName"  value="displaypage"></property>
       </bean>
     
